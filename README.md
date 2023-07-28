@@ -7,14 +7,14 @@ Using these sources, we created a dataset consisting of ~240K tweets, collected 
 All personal identifiers in the dataset, such ```author_id``` and ```tweet_id``` are anonymized.
 
 Several analyses were performed on the collected tweets:
-- Sentiment analysis - each tweet was classified to either positive, negative or nuetral sentiment using the BERTweet model[https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis] (a RoBERTa model trained on English tweets).
-- Emotion analysis - each tweet was classfied to one of 7 emotions (anger, disgust, fear, joy, neutral, sadness and surprise) using the RoBERTa-large model[https://huggingface.co/j-hartmann/emotion-english-distilroberta-base].
+- Sentiment analysis - each tweet was classified to either positive, negative or nuetral sentiment using the [BERTweet model](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis) (a RoBERTa model trained on English tweets).
+- Emotion analysis - each tweet was classfied to one of 7 emotions (anger, disgust, fear, joy, neutral, sadness and surprise) using the [RoBERTa-large model](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base).
 - Topic assignment - each tweet was assigned to one topic by ChatGPT, based on represntative set of topics, extracted based on a sample of tweets from our corpus.
 
 Currently, the collection of data is done manually using the provided notebooks:
-- _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
-- ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
-- _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
+[ ] _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
+[x] ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
+[ ] _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
 
 ## Usage:
 - Install ```Python```  (3.7 or later versions) with Jupyter (or Jupyter-lab interface).
