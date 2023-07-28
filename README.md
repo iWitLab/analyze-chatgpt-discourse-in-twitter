@@ -4,6 +4,7 @@ This repository contains code for extraction of tweets from Twitter's API and en
 In order to study the discourse around ChatGPT in Twitter, we used Twitter's API to retrieve recent tweets discussing the use of ChatGPT.
 In addition, we connect to OpenAI's API to send prompts and questions to the chatbot and record its answers.
 Using these sources, we created a dataset consisting of ~240K tweets, collected between February and June 2023 according to our inclusion criteria based on pre-defined keywords.
+All personal identifiers in the dataset, such ```author_id``` and ```tweet_id``` are anonymized.
 
 Several analyses were performed on the collected tweets:
 - Sentiment analysis - each tweet was classified to either positive, negative or nuetral sentiment using the BERTweet model[https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis] (a RoBERTa model trained on English tweets).
