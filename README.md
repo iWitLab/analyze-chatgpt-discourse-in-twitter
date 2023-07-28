@@ -12,9 +12,9 @@ Several analyses were performed on the collected tweets:
 - Topic assignment - each tweet was assigned to one topic by ChatGPT, based on represntative set of topics, extracted based on a sample of tweets from our corpus.
 
 Currently, the collection of data is done manually using the provided notebooks:
-[ ] _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
-[x] ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
-[ ] _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
+- [ ] _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
+- [x] ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
+- [ ] _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
 
 ## Usage:
 - Install ```Python```  (3.7 or later versions) with Jupyter (or Jupyter-lab interface).
