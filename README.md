@@ -1,4 +1,4 @@
-# tweets-chatgpt-extractor
+# Analysis of the discourse around ChatGPT in Twitter
 This repository contains code for extraction of tweets from Twitter's API and enables interaction with ChatGPT3.5 through OpenAI's API.
 
 In order to study the discourse around ChatGPT in Twitter, we used Twitter's API to retrieve recent tweets discussing the use of ChatGPT.
