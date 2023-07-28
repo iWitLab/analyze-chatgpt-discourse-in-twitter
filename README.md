@@ -5,9 +5,9 @@ In order to study the discourse around ChatGPT in Twitter, we use Twitter's API 
 In addition, we connect to OpenAI's API to send prompts and questions to the chatbot and record its answers.
 
 Currently, the collection of data is done manually using the provided notebooks:
-- ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used.
+- _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
 - ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
-- ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers.
+- _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
 
 ## Usage:
 - Install ```Python```  (3.7 and later versions) with Jupyter (or Jupyter-lab interface).
