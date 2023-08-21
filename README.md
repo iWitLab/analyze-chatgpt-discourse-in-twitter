@@ -5,7 +5,7 @@ In order to study the discourse around ChatGPT in Twitter, we used Twitter's API
 In addition, we connect to OpenAI's API to send prompts and questions to the chatbot and record its answers.
 Using these sources, we created a dataset consisting of ~470K tweets, collected between January and June 2023 according to our inclusion criteria based on pre-defined keywords.
 All personal identifiers in the dataset, such ```author_id``` and ```tweet_id``` are anonymized.
-* Note: Full content of the collected tweets cannot be uploaded to comply with Twitter's (Developer Agreement and Policy)[https://developer.twitter.com/en/developer-terms/agreement-and-policy].
+* Note: Full content of the collected tweets cannot be uploaded to comply with Twitter's [Developer Agreement and Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
 
 Several analyses were performed on the collected tweets:
 - Sentiment analysis - each tweet was classified to either positive, negative or neutral sentiment using the [BERTweet model](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis) (a RoBERTa model trained on English tweets).
