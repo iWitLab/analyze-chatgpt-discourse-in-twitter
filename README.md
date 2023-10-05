@@ -18,6 +18,6 @@ Currently, the collection of data is done manually using the provided notebooks:
 - [x] ```analyze_twitter_corpus.ipynb```: Analyze the collected Twitter corpus. Analyses includes pre-processing, topic modeling, sentiment and emotion classification and all relevant plots (some analyses were experimental) .
 
 ## Usage:
-- Install ```Python```  (3.7 or later versions) with Jupyter (or Jupyter-lab interface).
+- Install ```Python```  (Python 3.8) with Jupyter (or Jupyter-lab interface).
 - Create a virtual environment (or alternatively Anaconda environment) and install the following packages: ```numpy```, ```pandas```, ```seaborn```, ```jupyter```, ```nltk```, ```tweepy```, ```spacy```, ```gensim```, ```pyenchant```, ```beautifulsoup4```, ```openai```.
 - Run the above notebooks using a Twitter dataset (should be retreived from Twitter's API).
