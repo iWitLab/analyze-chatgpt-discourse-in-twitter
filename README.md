@@ -15,10 +15,10 @@ Several analyses were performed on the collected tweets:
 Currently, the collection of data is done manually using the provided notebooks:
 - [ ] _[To upload] ```retrieve_tweets.ipynb```: Extract all tweets from the last 7 days using Twitter's basic API, according to given keywords. Twitter's ```v2``` API is used._
 - [x] ```extract_img_from_twitter.ipynb```: Extract images from URLs included in tweets and read their texts.
-- [ ] _[To upload] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers._
+- [ ] ```interact_with_chatgpt.ipynb```: Send pre-defined prompts to ChatGPT3.5 through OpenAI's API and record its answers.
 - [x] ```analyze_twitter_corpus.ipynb```: Analyze the collected Twitter corpus. Analyses includes pre-processing, topic modeling, sentiment and emotion classification and all relevant plots (some analyses were experimental) .
 
 ## Usage:
 - Install ```Python```  (3.7 or later versions) with Jupyter (or Jupyter-lab interface).
-- Create a virtual environment (or alternatively Anaconda environment) and install the following packages: ```numpy```, ```pandas```, ```seaborn```, ```jupyter```, ```nltk```, ```tweepy```, ```spacy```, ```gensim```, ```pyenchant```, ```beautifulsoup4```.
+- Create a virtual environment (or alternatively Anaconda environment) and install the following packages: ```numpy```, ```pandas```, ```seaborn```, ```jupyter```, ```nltk```, ```tweepy```, ```spacy```, ```gensim```, ```pyenchant```, ```beautifulsoup4```, ```openai```.
 - Run the above notebooks.
