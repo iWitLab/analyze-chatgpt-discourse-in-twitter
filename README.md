@@ -21,4 +21,4 @@ Currently, the collection of data is done manually using the provided notebooks:
 ## Usage:
 - Install ```Python```  (Python 3.8) with Jupyter (or Jupyter-lab interface).
 - Create a virtual environment (or alternatively Anaconda environment) and install the following packages: ```numpy```, ```pandas```, ```seaborn```, ```jupyter```, ```nltk```, ```tweepy```, ```spacy```, ```gensim```, ```pyenchant```, ```beautifulsoup4```, ```openai```.
-- Run the above notebooks using a Twitter dataset (should be retreived from Twitter's API).
+- Run the above notebooks using a Twitter dataset (should be retreived from Twitter's API). A small sythetic Twitter dataset (file ```example_synthetic_tweets.csv``` is attached to the repository).
